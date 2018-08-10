@@ -35,3 +35,8 @@ var kittens = [
     var newKittens = kittens.slice(0, kittens.length - 1)
     return newKittens
   }
+  
+  function removeLastKitten() {
+    var newKittens = kittens.slice(0, kittens.length - 1)
+    return newKittens
+  }
