@@ -22,6 +22,5 @@ var kittens = [
   }
   
    function destructivelyPrependKitten(name) {
-    var newKittens = [...kittens, name]
-    return newKittens
+    kittens.
   }
