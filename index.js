@@ -12,3 +12,7 @@ var kittens = [
   function destructivelyPrependKitten(name) {
     kittens.unshift(name)
   }
+  
+  function destructivelyPrependKitten(name) {
+    kittens.unshift(name)
+  }
