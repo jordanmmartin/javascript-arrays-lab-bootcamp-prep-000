@@ -21,6 +21,7 @@ var kittens = [
     kittens.shift()
   }
   
-   function destructivelyPrependKitten(name) {
-    kittens.
+   function appendKitten(name) {
+    var newKittens = [...kittens, name]
+    return newKittens
   }
