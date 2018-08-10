@@ -5,4 +5,7 @@ var kittens = [
     'Garfield'
   ]
   
-  function 
+  function destructivelyAppendKitten(name) {
+    var newKittens = [...kittens, name]
+    return newKittens
+  }
